@@ -9,6 +9,6 @@ match priority:
     case "low":
         if time_bound == "no":
             print(f"'{task}' is low priority task. Consider completing it when you have free time.")
-    case "mediun":
+    case "medium":
         if time_bound == "yes":
             print(f"'{task}' is a medium priority task. You can do it after completing high priority task.")
