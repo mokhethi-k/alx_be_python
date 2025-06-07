@@ -19,4 +19,4 @@ elif unit == "C":
     result = convert_to_fahrenheit(temperature)
     print(f"{temperature}°C is {result}°F")
 else:
-    print("Invalid unit of measurement!")
+    print("Invalid temperature. Please enter a numeric value.")
